@@ -1,0 +1,4 @@
+# Secret demandé une seule fois pendant le déploiement Cloudflare.
+# Utilise au moins 16 caractères. Il protège la console et dérive les clés
+# internes de chiffrement ; il n'est jamais inclus dans le code.
+POLY_TAPE_ADMIN_SECRET=choisir-un-code-long-et-unique

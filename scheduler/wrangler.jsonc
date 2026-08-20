@@ -1,0 +1,20 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "poly-tape-scheduler",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "EXECUTOR_URL": "https://poly-tape-executor.jacquesichannefakebo.chatgpt.site/api/cron"
+  },
+  "secrets": {
+    "required": ["CRON_SECRET", "SITES_BYPASS_TOKEN"]
+  },
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

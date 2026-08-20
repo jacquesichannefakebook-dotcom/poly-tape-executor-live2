@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787134702084,
+      "tag": "0000_daffy_lady_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787214648869,
+      "tag": "0001_conscious_masked_marvel",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787226396094,
+      "tag": "0002_high_flatman",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787231268738,
+      "tag": "0003_tan_tyrannus",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787246675502,
+      "tag": "0004_quiet_korvac",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787247290879,
+      "tag": "0005_elite_dagger",
+      "breakpoints": true
+    }
+  ]
+}
